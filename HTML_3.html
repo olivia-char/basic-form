@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> My Registration Form </title>
+  </head>
+  <body>
+    <h1>My Registration Form </h1>
+    <form>
+      <h3>
+        <label for="first_name">First Name:</label>
+        <input type="text" id="first_name" name="first_name">
+      </h3>
+      <h3>
+        <label for="last_name">Last Name:</label>
+        <input type="text" id="last_name" name="last_name">
+      </h3>
+      <h3>
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email">
+      </h3>
+      <h3>
+        <label for="password">Password:</password>
+        <input type="password" id="password" name="password">
+      </h3>
+      <h3>
+        <label for="pw_confirm">Confirm Password:</password>
+        <input type="password" for="pw_confirm" name="password_confrimation">
+      </h3>
+      <h3>
+        <label for="birthday">Birthday:</label>
+        <input type="date" value="mm/dd/yy" id="date" name="date">
+      </h3>
+      <h3>
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="gender" value="male">
+
+        <label for="female">Female</label>
+        <input type="radio" id="female" name="gender" value="female">
+
+        <label for="other">Other</label>
+        <input type="radio" id="other" name="gender" value="other">
+      </h3>
+      <h3>
+        <label for="text_box">a short description about yourself</label>
+        <p><textarea name="description"></textarea></p>
+      </h3>
+      <h3>
+        <label for="language">Favorite Language:</label>
+        <select name="language">
+          <option value="javascript">Javascript</option>
+          <option value="html">HTML</option>
+          <option value="css">CSS</option>
+        </select>
+      </h3>
+
+      <input type="submit" value="submit">
+    </form>
+  </body>
+</html>
